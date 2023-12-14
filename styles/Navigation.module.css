@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70px;
+    margin-bottom: 50px;
+    background-color: var(--border-color);
+}
+
+.href{
+    padding: 0 10px;
+    font-size: 1.3rem;
+    color: inherit;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.href:hover{
+    background-color: var(--hover-color);
+}
+
+.themeBtn{
+    border: none;
+    padding: 0 10px;
+    font-size: 1.3rem;
+    color: inherit;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: inherit;
+    cursor: pointer;
+}
+.themeBtn:hover{
+    background-color: var(--hover-color);
+}
